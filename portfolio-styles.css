@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 3em;
+
+    color: #5D6063;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.nav-bar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+    overflow: hidden;
+    background-color: #4885ED;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar > ul li {
+    display: inline;
+    float: left;
+    /* border-right: 1px solid #bbb; */
+}
+
+.nav-bar > ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar > ul li a:hover {
+  background-color: #3CBA54;
+}
+
+.nav-bar > ul li a:active {
+  background-color: #F4C20D;
+}
+
+ul {
+    font-family: "Helvetica", "Arial", sans-serif;
+    padding-left: 25px;
+}
+
+body {
+    background-color: #EEEEEE;   /* Light gray */
+}
+
+.about > ul {
+    list-style-type: square;
+}
+
+.projects > ul {
+    list-style-type: circle;
+}
+
+.experience > ul {
+    list-style-type: square;
+}
+
+.experience > a {
+    color: #014422;
+    text-decoration: line-through;
+}
+
+.contact > ul {
+    list-style-type: circle;
+}
+
+.email > em {
+    color: #3CBA54
+}
+
+.linkedin > a {
+    color: #0E76A8;
+    text-decoration: none;
+}
+
+.linkedin > a:hover {
+    color: #4885ED;
+    text-decoration: none;
+}
+
+.github > a {
+    color: #24292E;
+    text-decoration: none;
+}
+
+.github > a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+#aws {
+    color: #248823;
+    text-decoration: none;
+}
+
+#aws:hover {
+    color: #006727;
+    text-decoration: none;
+}
