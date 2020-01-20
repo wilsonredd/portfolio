@@ -1,0 +1,11 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
+.projects-section > p {
+    width: 100%;
+    text-align: center;
+}
